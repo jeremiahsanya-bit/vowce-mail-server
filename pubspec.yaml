@@ -1,0 +1,212 @@
+name: mixture3_app
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.5.0
+  cloud_firestore: ^5.4.4
+  firebase_auth: ^5.3.1
+  flutter_svg: ^2.0.9
+  google_fonts: ^6.1.0
+  geolocator: ^12.0.0
+  geocoding: ^3.0.0   # 👈 ADD THIS
+  http: ^1.2.2
+  shared_preferences: ^2.3.3
+  provider: ^6.1.1
+  contacts_service: ^0.6.1
+  permission_handler: ^11.0.1
+  facebook_login: ^0.2.0
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+  #tronweb_dart: ^1.0.1  # Add this line
+  web3dart: ^2.3.5   # Ethereum-style interactions
+  #encrypt: ^5.0.1
+  bip39: ^1.0.6
+  image_picker: ^1.1.2  # ADD THIS
+  speech_to_text: ^7.1.0
+  intl: ^0.19.0  # Update from 0.18.0
+  google_maps_flutter: ^2.5.0
+  location: ^4.4.0
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.1
+  flutter_tts: ^3.8.3
+  audioplayers: ^5.2.1
+  record: ^4.4.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.0
+  video_player: ^2.8.3
+  photo_manager: ^3.6.0  # For accessing media files
+  video_thumbnail: ^0.5.3  # For video thumbnails (optional)
+  camera: ^0.11.3  # Add this line
+  path: ^1.9.0 # May also be needed[citation:9]
+  flutter_avif: ^1.0.0
+  chewie: ^1.5.0
+  firebase_storage: ^12.4.10 # Ensure you have the latest version
+  url_launcher: ^6.3.2 # Add this line
+  image_gallery_saver: ^2.0.3
+  fl_chart: ^0.66.2
+  html: ^0.15.0
+  dio: ^5.4.0
+  crypto: ^3.0.3
+  mime: ^1.0.4
+  file_picker: ^6.1.1
+  
+  
+  
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  hive_generator: ^2.0.0
+  build_runner: ^2.4.0
+ 
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/animations/
+    - assets/images/
+    - assets/wallpapers/
+    - assets/svg/
+    - assets/svg/vowce_icon.svg
+    - assets/sounds/Default.mp3
+    - assets/sounds/ringtone1.mp3
+    - assets/sounds/ringtone2.mp3
+    - assets/sounds/ringtone3.mp3
+    - assets/sounds/ringtone4.mp3
+    - assets/sounds/ringtone5.mp3
+    - assets/sounds/ringtone6.mp3
+    - assets/sounds/ringtone7.mp3
+    - assets/sounds/ringtone8.mp3
+    - assets/sounds/ringtone9.mp3
+    - assets/sounds/ringtone10.mp3
+    - assets/sounds/ringtone11.mp3
+    - assets/sounds/ringtone12.mp3
+    - assets/sounds/sent.mp3
+    - assets/sounds/receive.mp3
+    - assets/sounds/moment.mp3
+    - assets/images/blue.svg
+    - assets/images/green.svg
+    - assets/images/gold.svg
+    - assets/images/black.svg
+    - assets/images/silver.svg
+    - assets/stickers/sticker1.png
+    - assets/stickers/sticker2.png
+    - assets/stickers/sticker3.png
+    - assets/stickers/sticker4.png
+    - assets/stickers/sticker5.png
+    - assets/stickers/sticker6.png
+    - assets/stickers/sticker7.png
+    - assets/stickers/sticker8.png
+    - assets/stickers/sticker9.png
+    - assets/stickers/sticker10.png
+    - assets/stickers/sticker11.png
+    - assets/stickers/sticker12.png
+    - assets/stickers/sticker13.png
+    - assets/stickers/sticker14.png
+    - assets/stickers/sticker15.png
+    - assets/stickers/sticker16.png
+    - assets/stickers/sticker17.png
+    - assets/stickers/sticker18.png
+    - assets/stickers/sticker19.png
+    - assets/stickers/sticker20.png
+    - assets/stickers/sticker21.png
+    - assets/stickers/sticker22.png
+    - assets/stickers/sticker23.png
+    - assets/stickers/sticker24.png
+    - assets/stickers/sticker25.png
+    - assets/stickers/sticker26.png
+    - assets/stickers/sticker27.png
+    - assets/stickers/sticker28.png
+    - assets/stickers/sticker29.png
+    - assets/stickers/sticker30.png
+    - assets/stickers/sticker31.png
+    - assets/stickers/sticker32.png
+    - assets/stickers/sticker33.png
+    - assets/stickers/sticker34.png
+    - assets/stickers/sticker35.png
+    - assets/stickers/sticker36.png
+    - assets/stickers/sticker37.png
+    - assets/stickers/sticker38.png
+    - assets/stickers/sticker39.png
+    - assets/stickers/sticker40.png
+    - assets/stickers/sticker41.png
+    - assets/stickers/sticker42.png
+    - assets/stickers/sticker43.png
+    - assets/stickers/sticker44.png
+    - assets/stickers/sticker45.png
+    - assets/stickers/sticker46.png
+    - assets/stickers/sticker47.png
+    - assets/stickers/sticker48.png
+    - assets/stickers/sticker49.png
+    - assets/stickers/sticker50.png
+    - assets/stickers/sticker51.png
+    - assets/stickers/sticker52.png
+    - assets/stickers/sticker53.png
+    - assets/stickers/sticker54.png
+    - assets/stickers/sticker55.png
+    - assets/stickers/sticker56.png
+    - assets/stickers/sticker57.png
+    - assets/stickers/sticker58.png
+    - assets/stickers/sticker59.png
+    - assets/stickers/sticker60.png
+    - assets/stickers/sticker61.png
+    - assets/stickers/sticker62.png
+    - assets/stickers/sticker63.png
+    - assets/stickers/sticker64.png
+    - assets/stickers/sticker65.png
+    - assets/stickers/sticker66.png
+    - assets/stickers/sticker67.png
+    - assets/stickers/sticker68.png
+    - assets/stickers/sticker69.png
+    - assets/stickers/sticker70.png
+    - assets/stickers/sticker71.png
+    - assets/stickers/sticker72.png
+    - assets/stickers/sticker73.png
+    - assets/stickers/sticker74.png
+    - assets/stickers/sticker75.png
+    - assets/stickers/sticker76.png
+    - assets/stickers/sticker77.png
+    - assets/stickers/sticker78.png
+    - assets/stickers/sticker79.png
+    - assets/stickers/sticker80.png
+    - assets/stickers/sticker81.png
+    - assets/stickers/sticker82.png
+    - assets/stickers/sticker83.png
+    - assets/stickers/sticker84.png
+    - assets/stickers/sticker85.png
+    - assets/stickers/sticker86.png
+    - assets/stickers/sticker87.png
+    - assets/stickers/sticker88.png
+    - assets/stickers/sticker89.png
+    - assets/stickers/sticker90.png
+    - assets/stickers/sticker91.png
+    - assets/stickers/sticker92.png
+    - assets/stickers/sticker93.png
+    - assets/stickers/sticker94.png
+    - assets/stickers/sticker95.png
+    - assets/stickers/sticker96.png
+    - assets/stickers/sticker97.png
+    - assets/stickers/sticker98.png
+    - assets/stickers/sticker99.png
+    - assets/stickers/sticker100.png
+    - assets/svg/poll.png
+    - assets/svg/hub.png
+    - assets/svg/ads.png
+    - assets/svg/live.png
+    
+    
+    
