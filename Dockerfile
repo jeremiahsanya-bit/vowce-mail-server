@@ -1,9 +1,9 @@
-FROM dart:stable
+FROM cirrusci/flutter:stable
 
 WORKDIR /app
 
 COPY pubspec.yaml pubspec.yaml
-RUN dart pub get
+RUN flutter pub get
 
 COPY . .
 
