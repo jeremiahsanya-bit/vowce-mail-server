@@ -11,7 +11,7 @@ ENV PATH="/sdks/flutter/bin:/sdks/flutter/bin/cache/dart-sdk/bin:${PATH}"
 RUN flutter doctor --android-licenses || true
 
 COPY pubspec.yaml pubspec.yaml
-RUN flutter pub get
+RUN flutter pub get --no-superuser
 
 COPY . .
 
